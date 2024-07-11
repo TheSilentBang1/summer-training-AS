@@ -8,10 +8,7 @@ public class datatypes {
         // bool: true or false, 1 bit
         // char: character, 2 byte
         // long: integer, 8 bytes
-        // short: integer, 2 bytes\ 
-        // operators: 
-        // arithmetic operators:
-        
+        // short: integer, 2 bytes
     }
     
 }

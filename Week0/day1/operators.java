@@ -15,15 +15,22 @@ public class operators {
         // int c = a+b; 
         // System.out.println(c);
 
+        // unary operators: ++,--,! 
+
 
         //comparision operators
         //<,>,==,<=,>=
 
-        //logical operators
+        //logical operators: &&,!,||
 
-        //assignment operators
+        //assignment operators: =,+=,-=,/=,*=,%=
+        // += : compound assignment addition operator, eg. a+=b --> same as a = a+b, similarly all other compound assignment operators
 
-        //bitwise operators
+        //bitwise operators: &,^,|,~ : for manipulation of data on binary level
+        // int a = 5; //binary : 0101
+        // int b = 4; //binary : 0100
+        // int c = a|b; // c = a|b = 0101 | 0100 = 0101 = 5
+        // System.out.println(c);
 
         //loops: for,do while,while
         //using for print sum of all numbers from 1 to 25
@@ -33,16 +40,16 @@ public class operators {
         //     System.out.print(sum+" ");
         // }
 
-        int i =5;
-        while(i<15){
-            if(i%7==0&&i%2==0){
-                System.out.println(i);
-                i++;
-            }
-            else{
-                i++;
-            }
-        }
+        // int i =5;
+        // while(i<15){
+        //     if(i%7==0&&i%2==0){
+        //         System.out.println(i);
+        //         i++;
+        //     }
+        //     else{
+        //         i++;
+        //     }
+        // }
     }
 
 
