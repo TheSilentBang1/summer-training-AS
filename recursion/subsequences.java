@@ -1,0 +1,28 @@
+public class subsequences {
+    //head recursion
+    public static int countSubseq(String s){
+        if(s.isEmpty()){
+            return 1;
+        }
+        int n1 = countSubseq(s.substring(1));
+        int n2 = countSubseq(s.substring(1));
+        return n1+n2;
+
+    }
+
+    // tail recursion 
+    public static void genSubseq(String s,String ans){
+        if(s.isEmpty()){
+            System.out.println(ans);
+            return;
+        }
+        genSubseq(s.substring(1), ans+s.charAt(0));
+        genSubseq(s.substring(1), ans);
+    }
+    public static void main(String [] args){
+        String s = "tap";
+        String ans = "";
+        // genSubseq(s,ans);
+        System.out.println(countSubseq(s));
+    }
+}

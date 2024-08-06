@@ -20,10 +20,7 @@ public class arrayList {
 
         System.out.println(arr);
 
-        
-
-
-        
+                
 
     }
     
