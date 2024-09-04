@@ -21,7 +21,8 @@ public class rec {
     
     public static void main(String [] args){
         int n = 10;
-        // printNum(n);
+        int n1 = 1;
+        printNum(n1);
         //iterative code for sum of first n natural num
         // int sum = 0;
         // for(int i = 1;i<=n;i++){

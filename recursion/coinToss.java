@@ -3,6 +3,7 @@ public class coinToss {
     public static void toss(int n,String ans){
         if(n==0){
             System.out.println(ans);
+            return;
         }
         else{
             toss(n-1,ans+"H");

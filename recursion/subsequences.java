@@ -1,5 +1,5 @@
 public class subsequences {
-    //head recursion
+    //head recursion, counting number of subsequences
     public static int countSubseq(String s){
         if(s.isEmpty()){
             return 1;
@@ -21,8 +21,10 @@ public class subsequences {
     }
     public static void main(String [] args){
         String s = "tap";
-        String ans = "";
+        // String ans = "";
+        // System.out.println(s.substring(1));
         // genSubseq(s,ans);
         System.out.println(countSubseq(s));
+        // genSubseq(s,ans);
     }
 }
