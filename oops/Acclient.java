@@ -1,4 +1,3 @@
-package summerTrainingAS.oops;
 public class Acclient {
     public static void main(String args[]){
         Ac LG = new Ac();
@@ -6,7 +5,5 @@ public class Acclient {
         // LG.start = true;
         LG.temp = 24;
         System.out.println(LG.temp);
-
     }
-    
 }

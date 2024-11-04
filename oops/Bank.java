@@ -1,4 +1,3 @@
-package summerTrainingAS.oops;
 
 public class Bank {
     int balance;

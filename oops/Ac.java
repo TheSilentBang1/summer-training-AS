@@ -1,6 +1,4 @@
-package summerTrainingAS.oops;
 public class Ac {
-    
     //states
     boolean start;
     int fanSpeed;
@@ -31,6 +29,4 @@ public class Ac {
         }
         temp--;
     }
-
-
 }
